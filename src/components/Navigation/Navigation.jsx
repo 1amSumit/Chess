@@ -26,11 +26,14 @@ const Navigation = () => {
         <Button name="sign Up" style={{ backgroundColor: "#777" }} />
         <Button name="log In" style={{ backgroundColor: "green" }} />
       </div>
-      {clicked && (
-        <div className={classes.sideBar}>
-          <NavItems />
-        </div>
-      )}
+
+      <div
+        className={`${classes.sideBar}  ${
+          clicked ? classes.show : classes.hidden
+        }`}
+      >
+        <NavItems />
+      </div>
     </nav>
   );
 };
