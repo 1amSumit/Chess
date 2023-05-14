@@ -11,11 +11,14 @@ const navItems = [
   "more",
 ];
 
-const NavItems = () => {
+const NavItems = (props) => {
+  const getClick = (click) => {
+    props.sendClick(click);
+  };
   return (
     <ul>
       {navItems.map((item, i) => (
-        <NavItem key={i} item={item} icon={i} />
+        <NavItem key={i} item={item} icon={i} getClick={getClick} />
       ))}
     </ul>
   );
