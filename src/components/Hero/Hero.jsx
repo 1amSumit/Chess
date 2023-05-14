@@ -26,9 +26,9 @@ const Hero = () => {
           <button className={`${classes.btn__primary} ${classes.gray_bg}`}>
             <span>
               {" "}
-              <Play /> Play Online
+              <Play /> Play Computer
             </span>
-            <p>play with someone at your level</p>
+            <p>play vs coustamizable training bots</p>
           </button>
         </div>
       </div>
