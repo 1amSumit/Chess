@@ -1,0 +1,7 @@
+.home__section {
+  background-color: #495057;
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  color: #fff;
+  height: 100vh;
+}

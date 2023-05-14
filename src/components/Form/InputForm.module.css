@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.8rem;
+}
+
+.input {
+  width: 90%;
+  background-color: #aaa;
+  padding: 0.2rem 0.6rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 0.7rem;
+}
+
+.input:active {
+  outline: none;
+}
